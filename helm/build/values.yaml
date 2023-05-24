@@ -1,0 +1,15 @@
+app:
+  name: blues-man-poi-map-app
+  namespace: blues-man
+  cluster: .apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/blues-man-frontend
+  org: Summit23Janus2
+  name: blues-man-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: blues-man/poi-map-app
+  tag: latest
